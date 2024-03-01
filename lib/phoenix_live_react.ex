@@ -3,8 +3,9 @@ defmodule PhoenixLiveReact do
   Render React.js components in Phoenix LiveView views.
   """
 
+  use PhoenixHTMLHelpers
+
   import Phoenix.HTML
-  import Phoenix.HTML.Tag
 
   @doc """
   Render a react component in a live view.
