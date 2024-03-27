@@ -24,7 +24,7 @@ defmodule PhoenixLiveReact.MixProject do
     [
       {:ex_doc, "~> 0.21", only: :dev, runtime: false},
       {:phoenix_html_helpers, "~> 1.0.1"},
-      {:phoenix_html, "~> 2.11 or ~> 3.0 or ~> 4.0"},
+      {:phoenix_html, "~> 4.0"},
       {:jason, "~> 1.1"}
     ]
   end
